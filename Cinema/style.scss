@@ -1,0 +1,38 @@
+// seletor{propriedade:valor
+/* 
+  Seletor no SCSS:
+  - É usado para "apontar" quais elementos HTML receberão os estilos.
+  - Funciona igual ao CSS, mas no SCSS é possível ANINHAR seletores, deixando o código mais organizado.
+  - Também dá para usar o "&" para se referir ao seletor pai em modificações
+    como pseudo-classes (:hover) ou variações de classe.
+  - No final, todos os seletores SCSS são compilados para CSS puro.
+*/
+
+// * é um seletor global, ele seleciona todos os elementos da página de uma vez. Geralmente é usado para aplicar um estilo “global” ou resetar padrões de navegadores.
+*{
+    margin: 0;
+    // espaçamento externo das tags
+    padding: 0;
+    // espaçamento interno das tags
+    box-sizing: border-box;
+    // inclui o padding e a borda na largura e altura total do elemento
+}
+body{
+    background-color: cadetblue;
+}
+// Seletor de tag
+img{
+    width: 150px;
+
+}
+//class = seletor
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+// id = seletor
+#btn1{
+    background-color: darkslateblue;
+    font: white;
+}

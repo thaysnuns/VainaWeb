@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 
+  Seletor no SCSS:
+  - É usado para "apontar" quais elementos HTML receberão os estilos.
+  - Funciona igual ao CSS, mas no SCSS é possível ANINHAR seletores, deixando o código mais organizado.
+  - Também dá para usar o "&" para se referir ao seletor pai em modificações
+    como pseudo-classes (:hover) ou variações de classe.
+  - No final, todos os seletores SCSS são compilados para CSS puro.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+img {
+  width: 150px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+#btn1 {
+  background-color: darkslateblue;
+  font: white;
+}/*# sourceMappingURL=style.css.map */
