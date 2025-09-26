@@ -1,0 +1,3 @@
+[submodule "Cinema"]
+	path = Cinema
+	url = https://github.com/thaysnuns/CineVNW.git
